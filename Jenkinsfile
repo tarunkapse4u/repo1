@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Compile') {
       steps {
-        sh 'echo compile'
+        echo 'compile'
       }
     }
     stage('Unit TEst') {
@@ -15,14 +15,14 @@ pipeline {
         }
         stage('Ui Test') {
           steps {
-            sh 'echo ui test'
+            echo 'ui test'
           }
         }
       }
     }
     stage('Deploye') {
       steps {
-        sh 'echo deployee'
+        echo 'Deployee'
       }
     }
   }
