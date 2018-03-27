@@ -13,9 +13,9 @@ pipeline {
             sh 'echo Unit test'
           }
         }
-        stage('Ui Test') {
+        stage('UI TEST') {
           steps {
-            echo 'uitest'
+            echo 'Print UI TEst'
           }
         }
       }
